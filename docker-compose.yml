@@ -1,0 +1,18 @@
+services:
+  backend:
+    build: ./backend
+    container_name: mern-backend
+    env_file: .env
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: mern-frontend
+    ports:
+      - "3000:80"     # open http://localhost:3000
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
