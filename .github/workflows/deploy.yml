@@ -12,7 +12,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.SSH_HOST }}
-          host_key: 'github.com'
+          host_key: '3.141.187.2 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK61aZ944OPCnhnMNcMfe9Ew7XI6st/7vwvdvnpe/4XC'
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
