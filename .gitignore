@@ -48,3 +48,8 @@ backend/tmp/
 *.pid
 *.seed
 *.swp
+
+# deploy-only
+Caddyfile
+docker-compose.caddy.yml
+.env
