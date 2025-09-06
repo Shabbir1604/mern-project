@@ -1,4 +1,6 @@
 Deployed via Actions: $(date)
+trigger build
+
 ![image](https://github.com/user-attachments/assets/36c105b2-618f-4ae1-abb6-bacc794c4286)
 
 <h1 align="center">Inventory Management System</h1>
