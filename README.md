@@ -88,7 +88,6 @@ Browser (HTTPS)
    - VM runs images for **that exact commit**
 
 **Rollback**
-# On the VM:
 cd ~/mern
 TAG=<previous7sha> sudo docker compose -f docker-compose.yml -f docker-compose.ghcr.yml pull
 TAG=<previous7sha> sudo docker compose -f docker-compose.yml -f docker-compose.ghcr.yml up -d
