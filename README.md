@@ -183,5 +183,5 @@ GHCR images per commit (<shortsha>) → reproducible deploys/rollbacks
 
 
 Author:   Shabbir1604
-LinkedIn: https://www.linkedin.com/in/shabbir-dudekula/
+LinkedIn: https://www.linkedin.com/in/shabbirdudekula/
 
